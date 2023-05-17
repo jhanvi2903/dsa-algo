@@ -15,8 +15,9 @@ public class Palindrome {
 
     public static void main(String[] args){
         int num= 1221;
+        int dummy = num;
         int checkPalindrome= reverseNumber(num);
-        if(num==checkPalindrome){
+        if(dummy==checkPalindrome){
             System.out.println("Number is Palindrome");
         }else{
             System.out.println("Number is not Palindrome");
