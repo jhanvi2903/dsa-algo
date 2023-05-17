@@ -7,7 +7,7 @@ public class Palindrome {
         while(num!=0){
             int rem=num%10; //Extract the last digit
             reverse=reverse*10+rem; //Appending last digit
-            num=num/10; // Shrinking X by discarding the last digit
+            num=num/10; // Shrinking num by discarding the last digit
         }
 
         return reverse;
