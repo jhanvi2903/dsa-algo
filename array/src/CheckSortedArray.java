@@ -1,5 +1,7 @@
 
 /*
+https://www.codingninjas.com/studio/problems/ninja-and-the-sorted-check_6581957?leftPanelTab=0
+
     Consider the ArrayIndexOutOfBoundException in Array questions
     The below solution will throw this exception in if condition  -
       for(int i=1; i<a.length; i++){
