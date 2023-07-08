@@ -4,29 +4,30 @@
 public class LargestElementInArray {
     static int largestElementSolution1(int[] arr, int n) {
 
-        int maxNumber=arr[0];
+        int maxNumber = arr[0];
 
-        for(int i=1;i<arr.length;i++){
-            if(maxNumber<arr[i]){
-                maxNumber=arr[i];
+        for(int i=1; i<arr.length; i++){
+            if(maxNumber < arr[i]){
+                maxNumber = arr[i];
             }
         }
-        return maxNumber;
 
+        return maxNumber;
     }
 
     static int largestElementSolution2(int[] arr, int n) {
 
-        int maxNumber=arr[0];
-        for(int i=1;i<arr.length;i++){
-            maxNumber=Math.max(maxNumber,arr[i]);
-        }
-        return maxNumber;
+        int maxNumber = arr[0];
 
+        for(int i=1; i<arr.length; i++){
+            maxNumber = Math.max(maxNumber,arr[i]);
+        }
+
+        return maxNumber;
     }
 
     public static void main(String[] args){
-        int arr[]= {4,8,9,1,2,17};
+        int arr[] = {4,8,9,1,2,17};
         System.out.println(largestElementSolution2(arr,arr.length));
     }
 }
