@@ -12,6 +12,11 @@ public class RemoveDuplicatesFromSortedArray {
             }
         }
 
+        for(int j=0; j<=i;j++){
+            System.out.print(arr[j]+" ");
+        }
+        System.out.println();
+
         return i+1;
     }
     public static void main(String[] args){

@@ -29,7 +29,7 @@ public class FirstOccurenceSearchInSortedArray {
 
     public static void main(String[] args){
         int arr[]={5,10,10,11,15,15,15,19,20,20,20,20};
-        int key=20;
+        int key=6;
         System.out.println(firstOccurrenceSearch(arr,key));
     }
 }

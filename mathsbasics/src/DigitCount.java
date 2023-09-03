@@ -11,7 +11,7 @@ public class DigitCount {
 
     public static int digitCount(int n) {
         int count;
-        for(count = 0; n != 0; ++count) {
+        for(count = 0; n != 0; count++) {
             n /= 10;
         }
 
